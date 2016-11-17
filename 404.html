@@ -403,7 +403,66 @@
          </form>
       </div>
       <!-- SEARCH END -->
-      
+      <!-- MODAL -->
+      <div class="modal fade in" id="call" tabindex="-2" role="dialog" aria-hidden="false">
+         <div class="modal-dialog">
+            <div class="modal-content modal-content--success">
+               <button type="button" class="close close-modal" data-dismiss="modal" aria-hidden="true">
+               <span class="icon icon-close"></span>
+               </button>
+               <div class="modal-body">
+                  <div class="modal-heading">
+                     <div class="text-center reg-success__sub">Оставьте нам заявку</div>
+                  </div>
+                  <div class="form clearfix">
+                     <form action="/" class="form-modal js_validate">
+                        <div class="col-xs-12 form-group form-col">
+                           <div class="row">
+                              <input type="email" data-validate="email" required placeholder="Email" class="form-control input1">
+                           </div>
+                        </div>
+                        <div class="col-xs-12 form-group form-col">
+                           <div class="row">
+                              <input type="tel" data-validate="phone" required placeholder="Телефон" class="form-control input1">
+                           </div>
+                        </div>
+                        <div class="col-xs-12 form-group form-col">
+                           <div class="row">
+                              <textarea name="" required class="form-control input1"  cols="30" rows="10" placeholder="Сообщение"></textarea>
+                           </div>
+                        </div>
+                        <div class="col-xs-12 from-group form-button">
+                           <button type="submit" class="btn btn-more btn-form">
+                              <span>отправить</span>
+                           </button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="modal fade in" id="ref-success" tabindex="-2" role="dialog" aria-hidden="false">
+         <div class="modal-dialog">
+            <div class="modal-content modal-content--success">
+               <button type="button" class="close close-modal" data-dismiss="modal" aria-hidden="true">
+               <span class="icon icon-close"></span>
+               </button>
+               <div class="modal-body">
+                  <div class="modal-heading">
+                     <div class="text-center reg-success">Спасибо!</div>
+                  </div>
+                  <div class="text-center">
+                     <div class="reg-success__sub">Наш менеджер свяжется с Вами в ближайшее время</div>
+                     <button data-dismiss="modal" class="btn btn-more btn-form">
+                        <span>Закрыть</span>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- MODAL -->
      <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
       <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
       <script type="text/javascript" src="js/jquery-ui.min.js"></script>
